@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Country"
+    android:background="#f1f2f5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:background="@drawable/group_78">
+
+        <customfonts.MyTextView_Roboto_Bold
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FIFA WORLD CUP 2018"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="14dp"
+            android:textSize="21.3sp"/>
+
+        <customfonts.MyTextView_Roboto_Medium
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Live Scorer"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:paddingTop="10dp"
+            android:layout_marginTop="17dp"
+            android:textSize="15.3sp"/>
+
+    </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="13.3dp">
+
+
+            <customfonts.MyTextView_Roboto_Medium
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15.31sp"
+                android:letterSpacing="0.0625"
+                android:text="Matches Today"
+                android:layout_weight="1"
+                android:textColor="#383838"/>
+
+            <customfonts.MyTextView_Roboto_Bold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15.31sp"
+                android:text="26 Jun"
+                android:textColor="#383838"/>
+
+
+        </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclerView1">
+
+    </android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:id="@+id/linear1"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_path_46"
+                android:id="@+id/image1"/>
+
+            <customfonts.MyTextView_Roboto_Medium
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="8.9sp"
+                android:id="@+id/text1"
+                android:textColor="#cbcfdd"
+                android:text="Home"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:id="@+id/linear2"
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/image2"
+                android:src="@drawable/football12"/>
+
+            <customfonts.MyTextView_Roboto_Medium
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="8.9sp"
+                android:textColor="#cbcfdd"
+                android:id="@+id/text2"
+                android:text="Live Scorer"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/linear3"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/image3"
+                android:src="@drawable/ic_newspaper"/>
+
+            <customfonts.MyTextView_Roboto_Medium
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text3"
+                android:textSize="8.9sp"
+                android:textColor="#cbcfdd"
+                android:text="News"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:id="@+id/linear4"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/image4"
+                android:src="@drawable/ic_star"/>
+
+            <customfonts.MyTextView_Roboto_Medium
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="8.9sp"
+                android:id="@+id/text4"
+                android:textColor="#cbcfdd"
+                android:text="Favorites"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:id="@+id/linear5"
+            android:paddingTop="10dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:id="@+id/image5"
+                android:layout_height="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_group_15"/>
+
+            <customfonts.MyTextView_Roboto_Medium
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="8.9sp"
+                android:id="@+id/text5"
+                android:textColor="#cbcfdd"
+                android:layout_marginTop="5dp"
+                android:text="More"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

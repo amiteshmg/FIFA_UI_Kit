@@ -1,0 +1,17 @@
+<tabs>
+    <tab
+        icon="@drawable/ic_path_46"
+        title="Live Events"/>
+    <tab
+        icon="@drawable/ic_football1"
+        title="Statistics" />
+    <tab
+        icon="@drawable/ic_newspaper"
+        title="Lineups" />
+    <tab
+        icon="@drawable/ic_star"
+        title="Facts" />
+    <tab
+        icon="@drawable/ic_group_15"
+        title="Groups" />
+</tabs>
